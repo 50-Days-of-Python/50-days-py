@@ -3,7 +3,7 @@ import main
 
 # DO NOT TOUCH THE BELOW CODE
 
-class Test_1(unittest.TestCase):
+class Test_2(unittest.TestCase):
   def test_02(self):
     self.assertEqual(main.highest_of(6,94), 94)
     
