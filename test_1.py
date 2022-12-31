@@ -5,7 +5,7 @@ import main
 
 class Test_1(unittest.TestCase):
   def test_01(self):
-    self.assertEqual(main.highest_of(5,4), 5)
+    self.assertEqual(main.digits_of(1234), 4)
     
 if __name__ == '__main__':
   unittest.main(verbosity=2)
